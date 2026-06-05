@@ -17,7 +17,7 @@ def unused_function(x, y):
     return x + y
 
 def main():
-    numbers = [1, 2, 3, 4, 5]
+    numbers = [1, 2, 3, 4, 5,6,7]
 
     # Off-by-one error: accessing out-of-range index
     print("Last number:", numbers[len(numbers)])
